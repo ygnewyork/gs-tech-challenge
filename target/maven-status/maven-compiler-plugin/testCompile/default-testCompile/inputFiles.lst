@@ -1,5 +1,10 @@
-/workspaces/gs-tech-challenge/src/test/java/com/gs/techchallenge/controller/MutualFundControllerTest.java
-/workspaces/gs-tech-challenge/src/test/java/com/gs/techchallenge/service/InvestmentProjectionServiceExtendedTest.java
-/workspaces/gs-tech-challenge/src/test/java/com/gs/techchallenge/service/InvestmentProjectionServiceTest.java
-/workspaces/gs-tech-challenge/src/test/java/com/gs/techchallenge/service/MutualFundCatalogServiceTest.java
-/workspaces/gs-tech-challenge/src/test/java/com/gs/techchallenge/service/RiskFreeRateServiceTest.java
+/Users/patrickbofah/BOFAH/Projects/Github/gs-tech-challenge/src/test/java/com/gs/techchallenge/auth/AuthControllerTest.java
+/Users/patrickbofah/BOFAH/Projects/Github/gs-tech-challenge/src/test/java/com/gs/techchallenge/auth/MongoUserServiceTest.java
+/Users/patrickbofah/BOFAH/Projects/Github/gs-tech-challenge/src/test/java/com/gs/techchallenge/auth/UserProfileControllerTest.java
+/Users/patrickbofah/BOFAH/Projects/Github/gs-tech-challenge/src/test/java/com/gs/techchallenge/controller/MutualFundControllerTest.java
+/Users/patrickbofah/BOFAH/Projects/Github/gs-tech-challenge/src/test/java/com/gs/techchallenge/security/JwtServiceTest.java
+/Users/patrickbofah/BOFAH/Projects/Github/gs-tech-challenge/src/test/java/com/gs/techchallenge/security/SecurityIntegrationTest.java
+/Users/patrickbofah/BOFAH/Projects/Github/gs-tech-challenge/src/test/java/com/gs/techchallenge/service/InvestmentProjectionServiceExtendedTest.java
+/Users/patrickbofah/BOFAH/Projects/Github/gs-tech-challenge/src/test/java/com/gs/techchallenge/service/InvestmentProjectionServiceTest.java
+/Users/patrickbofah/BOFAH/Projects/Github/gs-tech-challenge/src/test/java/com/gs/techchallenge/service/MutualFundCatalogServiceTest.java
+/Users/patrickbofah/BOFAH/Projects/Github/gs-tech-challenge/src/test/java/com/gs/techchallenge/service/RiskFreeRateServiceTest.java

@@ -1,5 +1,5 @@
-com/gs/techchallenge/service/MutualFundCatalogServiceTest.class
 com/gs/techchallenge/service/InvestmentProjectionServiceTest.class
+com/gs/techchallenge/service/InvestmentProjectionServiceExtendedTest.class
+com/gs/techchallenge/service/MutualFundCatalogServiceTest.class
 com/gs/techchallenge/service/RiskFreeRateServiceTest.class
 com/gs/techchallenge/controller/MutualFundControllerTest.class
-com/gs/techchallenge/service/InvestmentProjectionServiceExtendedTest.class
