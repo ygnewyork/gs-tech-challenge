@@ -1,6 +1,6 @@
 package com.gs.techchallenge.security;
 
-import com.gs.techchallenge.auth.InMemoryUserService;
+import com.gs.techchallenge.auth.MongoUserService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -27,10 +27,10 @@ import java.util.List;
 public class SecurityConfig {
 
     private final JwtAuthenticationFilter jwtAuthenticationFilter;
-    private final InMemoryUserService userService;
+    private final MongoUserService userService;
     private final PasswordEncoder passwordEncoder;
 
-    public SecurityConfig(JwtAuthenticationFilter jwtAuthenticationFilter, InMemoryUserService userService,
+    public SecurityConfig(JwtAuthenticationFilter jwtAuthenticationFilter, MongoUserService userService,
                           PasswordEncoder passwordEncoder) {
         this.jwtAuthenticationFilter = jwtAuthenticationFilter;
         this.userService = userService;

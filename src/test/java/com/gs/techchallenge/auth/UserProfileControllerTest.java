@@ -20,7 +20,7 @@ import static org.mockito.Mockito.when;
 class UserProfileControllerTest {
 
     @Mock
-    private InMemoryUserService userService;
+    private MongoUserService userService;
 
     @InjectMocks
     private UserProfileController controller;

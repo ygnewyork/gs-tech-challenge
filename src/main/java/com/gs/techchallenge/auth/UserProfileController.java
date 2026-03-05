@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/user")
 public class UserProfileController {
 
-    private final InMemoryUserService userService;
+    private final MongoUserService userService;
 
-    public UserProfileController(InMemoryUserService userService) {
+    public UserProfileController(MongoUserService userService) {
         this.userService = userService;
     }
 

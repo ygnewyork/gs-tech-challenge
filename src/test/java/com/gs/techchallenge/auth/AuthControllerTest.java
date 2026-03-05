@@ -27,7 +27,7 @@ import static org.mockito.Mockito.when;
 class AuthControllerTest {
 
     @Mock
-    private InMemoryUserService userService;
+    private MongoUserService userService;
 
     @Mock
     private JwtService jwtService;

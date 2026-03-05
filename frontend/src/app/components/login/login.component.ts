@@ -29,7 +29,7 @@ export class LoginComponent {
       error: (err) => {
         this.loading = false;
         if (err.status === 401) {
-          this.error = 'Invalid username or password';
+          this.error = 'Invalid username or password.';
         } else if (err.status === 0) {
           this.error = 'Cannot reach the server. Please ensure the backend is running.';
         } else {

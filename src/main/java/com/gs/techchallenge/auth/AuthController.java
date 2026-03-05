@@ -18,11 +18,11 @@ import org.springframework.web.server.ResponseStatusException;
 @RequestMapping("/api/auth")
 public class AuthController {
 
-    private final InMemoryUserService userService;
+    private final MongoUserService userService;
     private final JwtService jwtService;
     private final AuthenticationManager authenticationManager;
 
-    public AuthController(InMemoryUserService userService, JwtService jwtService,
+    public AuthController(MongoUserService userService, JwtService jwtService,
                           AuthenticationManager authenticationManager) {
         this.userService = userService;
         this.jwtService = jwtService;

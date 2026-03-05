@@ -317,10 +317,28 @@ Example error response:
 
 ## 🔧 Configuration
 
+### MongoDB Connection
+
+The application uses MongoDB for persistent user authentication data.
+
+- **Default**: `mongodb://localhost:27017/fundscope`
+- **Override**: Set the `MONGODB_URI` environment variable
+- **Docker Compose**: Automatically provisions a local MongoDB instance
+
+```bash
+# Local development (default)
+mvn spring-boot:run
+
+# Custom MongoDB (e.g., MongoDB Atlas)
+export MONGODB_URI="mongodb+srv://user:pass@cluster.mongodb.net/fundscope"
+mvn spring-boot:run
+```
+
 ### Backend (application.properties)
 ```properties
 spring.application.name=gs-tech-challenge
 server.port=8080
+spring.data.mongodb.uri=${MONGODB_URI:mongodb://localhost:27017/fundscope}
 ```
 
 ### Frontend (environment.ts)

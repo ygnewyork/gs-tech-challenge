@@ -1,6 +1,6 @@
 package com.gs.techchallenge.security;
 
-import com.gs.techchallenge.auth.InMemoryUserService;
+import com.gs.techchallenge.auth.MongoUserService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -19,9 +19,9 @@ import java.io.IOException;
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
     private final JwtService jwtService;
-    private final InMemoryUserService userService;
+    private final MongoUserService userService;
 
-    public JwtAuthenticationFilter(JwtService jwtService, InMemoryUserService userService) {
+    public JwtAuthenticationFilter(JwtService jwtService, MongoUserService userService) {
         this.jwtService = jwtService;
         this.userService = userService;
     }

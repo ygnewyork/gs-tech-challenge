@@ -1,0 +1,5 @@
+.env
+target/
+.angular/
+dist/
+node_modules/
