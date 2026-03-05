@@ -1,5 +1,5 @@
-com/gs/techchallenge/service/MutualFundCatalogService.class
 com/gs/techchallenge/service/InvestmentProjectionService.class
+com/gs/techchallenge/service/MutualFundCatalogService.class
 com/gs/techchallenge/controller/MutualFundController.class
 com/gs/techchallenge/model/MutualFund.class
 com/gs/techchallenge/client/HistoricalReturnsClient.class
@@ -7,6 +7,5 @@ com/gs/techchallenge/service/RiskFreeRateService.class
 com/gs/techchallenge/TechChallengeApplication.class
 com/gs/techchallenge/exception/ExternalApiException.class
 com/gs/techchallenge/client/NewtonAnalyticsClient.class
-com/gs/techchallenge/config/CorsConfig.class
 com/gs/techchallenge/model/InvestmentProjectionResponse.class
 com/gs/techchallenge/exception/GlobalExceptionHandler.class
